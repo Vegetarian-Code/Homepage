@@ -14,8 +14,21 @@
  */
 
 @import "variables";
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 body {
   padding-top: 40px;
-}Se
+}
+
+.navbar-default {
+  .nav > li > a,
+  .nav > li > a:focus {
+    color: $dark_green;
+  }
+
+  .nav > li > a:hover {
+    color: $bright_green;
+  }
+}
 

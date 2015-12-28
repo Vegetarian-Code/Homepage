@@ -11,3 +11,5 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'pg', '~> 0.18.4'
 gem 'devise'
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'autoprefixer-rails'
