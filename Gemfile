@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails', '4.1.8'
 gem 'sass-rails', '~> 4.0.3'
@@ -10,6 +10,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'pg', '~> 0.18.4'
+gem 'tzinfo-data'
+gem 'coffee-script-source', '1.8.0'
 gem 'devise'
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
